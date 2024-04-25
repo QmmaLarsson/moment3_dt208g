@@ -25,18 +25,23 @@
         forms".</p>
     <h2>Templates och databinding</h2>
     <p>
-        <strong>[(ngModel)]</strong>
+        <strong>ngModel</strong>
         <br>
-        Attributet "[(ngModel)]" används för att binda värdet på det användaren skriver in i input-fälten till
+        Attributet "ngModel" används för att binda värdet på det användaren skriver in i input-fälten till
         variablerna temperature och length som finns i TypeScript-klasserna TemperatureComponent och
         LengthComponent.
         Detta innebär att ändringar i inputfältet uppdaterar värdet på variabeln.
         <br><br>
-        <strong>(click)</strong>
+        <strong>click</strong>
         <br>
-        Direktivet (click) används för att binda klickhändelserna på knapparna till funktionerna fToC/cToF och
+        Direktivet "click" används för att binda klickhändelserna på knapparna till funktionerna fToC/cToF och
         mToF/fToM
         som finns i TypeScript-klasserna TemperatureComponent och LengthComponent.
+        <br><br>
+        <strong>result</strong>
+        <br>
+        Variabeln "result" lagrar resultatet av temperaturomvandlingen och längdomvandlingen. Interpolation används för
+        att binda datan från komponenten till HTML-koden. Detta görs med hjälp av dubbla måsvingar.
     </p>
 
     <h2>Slutsatser</h2>
