@@ -60,7 +60,7 @@ app-footer {
     text-align: center;
     background-color: #1c96ba;
     color: white;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px -5px 5px -5px black;
 }
 
 .container {
@@ -73,7 +73,7 @@ app-footer {
 }
 
 input {
-padding: 5px;
+    padding: 5px;
 }
 
 button {
@@ -92,7 +92,7 @@ button:hover {
 @media screen and (max-width: 700px) {
     main {
         padding-top: 170px;
-        
+
     }
 
     .container {
