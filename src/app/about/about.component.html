@@ -1,4 +1,49 @@
-<div id="aboutcontainer">
-    <h1>Om</h1>
-    <p>about works!</p>
+<h1>Om</h1>
+<div id="abouttext">
+    <h2>Installation</h2>
+    <p>Jag började med att installera Angular på min dator. Detta gjorde jag med kommandot "npm install -g
+        &commat;angular/cli*. Därefter så skapade jag ett nytt projekt och kommandot jag använde för att göra det
+        var
+        "ng new
+        Angular1". När projektet var skapat så gick jag in i projektets mapp (detta gjordes med kommandot "cd
+        Angular1"), därifrån startade jag en server genom att
+        skriva "ng serve --open".</p>
+
+    <h2>Komponenter och routing</h2>
+    <p>
+        När projektet var igång så började jag att skapa ett flertal komponenter. Detta gjorde jag med hjälp av
+        kommandot "ng generate component NamnPåKomponent". Jag skapade tre undersidor, en navigationsmeny samt två
+        olika
+        komponenter för de omvandlare som finns på sidan. komponenterna med omvandlarna placerades på undersidan
+        "Omvandlare." För att göra det möjligt att navigera mellan de olika komponenterna så använde jag mig at
+        routing.
+        Detta gjorde jag genom att använda RouterModule och Routes i app.routes.ts.
+    </p>
+
+    <h2>Formulär</h2>
+    <p> För att göra mina omvandlare så skapade jag två olika formulär. Dessa formulär var av typen "template-driven
+        forms".</p>
+    <h2>Templates och databinding</h2>
+    <p>
+        <strong>[(ngModel)]</strong>
+        <br>
+        Attributet "[(ngModel)]" används för att binda värdet på det användaren skriver in i input-fälten till
+        variablerna temperature och length som finns i TypeScript-klasserna TemperatureComponent och
+        LengthComponent.
+        Detta innebär att ändringar i inputfältet uppdaterar värdet på variabeln.
+        <br><br>
+        <strong>(click)</strong>
+        <br>
+        Direktivet (click) används för att binda klickhändelserna på knapparna till funktionerna fToC/cToF och
+        mToF/fToM
+        som finns i TypeScript-klasserna TemperatureComponent och LengthComponent.
+    </p>
+
+    <h2>Slutsatser</h2>
+    <p>
+        Jag tycker att det har varit en väldigt rolig att få börja arbeta med ramverk. Det är mycket som är nytt och
+        mycket som känns utmanande. Men jag kan helt klart se fördelarna med att jobba i Angular, framförallt att
+        det har en tydlig struktur och att det finns mycket färdiga verktyg att ta del av. Detta gör att jag kan
+        effektivisera mitt kodande och minska den kod som behöver skrivas från grunden.
+    </p>
 </div>

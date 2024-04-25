@@ -12,4 +12,4 @@ Projektet skapades med hjälp av Angular CLI (https://github.com/angular/angular
 För att installera och börja använda projektet, följ nedanstående steg:
 * Klona projektet från Github. För att göra detta, nagivera till den mapp där du vill spara projektet, skriv in "git clone" följt av Github-repots URL.
 * Installera beroenden. För att göra detta använd kommandot "npm install".
-* Kör projektet. För att göra detta använd kommandot "ng serve"
+* Kör projektet. För att göra detta använd kommandot "ng serve".
