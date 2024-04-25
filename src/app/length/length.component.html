@@ -1,15 +1,18 @@
-<h3>Längdomvandlare</h3>
+<h2>Längdomvandlare</h2>
 
+<div class="container">
 <div>
     <label for="length"><Strong>Längd: </Strong></label>
     <input type="number" id="length" [(ngModel)]="length">
 </div>
 
 <div>
-    <button (click)="mToF()">Omvandla till feet</button>
-    <button (click)="fToM()">Omvandla till meter</button>
+    <button (click)="mToF()">Omvandla från meter till fot</button>
+    <br>
+    <button (click)="fToM()">Omvandla från fot till meter</button>
 </div>
 
 <div id="result">
     <p><strong>Resultat: </strong> {{ result }}</p>
+</div>
 </div>

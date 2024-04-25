@@ -1,0 +1,40 @@
+/*Regler för huvudmenyn*/
+#float {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1c96ba;
+    color: white;
+    float: left;
+    padding: 30px;
+}
+
+nav a:hover {
+    background-color: #0c73b2;
+}
+
+@media screen and (max-width: 700px) {
+    #float {
+        float: none;
+    }
+
+    nav a {
+        float: none;
+        display: block;
+        text-align: left;
+        padding: 15px;
+    }
+}
