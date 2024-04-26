@@ -3,3 +3,17 @@
     max-width: 500px;
     text-align: center;
 }
+
+@media screen and (max-width: 950px) {
+    #abouttext {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #abouttext {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
